@@ -13,6 +13,6 @@ My research addresses topical debates in political economy, technological change
 
 I am passionate about applying generative artificial intelligence and broader deep-learning techniques in my research. Click [here](/research/) to learn more!
 
-You can find my CV [here](https://YOUR-USERNAME.github.io/files/CV_John_W_Z_Zhang.pdf).
+You can find my CV [here](https://wzhangjohn.github.io/files/CV_John_W_Z_Zhang.pdf).
 
 Feel free to reach out at: [w.zhang59@lse.ac.uk](mailto:w.zhang59@lse.ac.uk).
