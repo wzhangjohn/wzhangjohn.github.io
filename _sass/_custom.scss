@@ -1,0 +1,4 @@
+// Make h2 links (used for publications, talks, etc.) less bold
+h2 > a {
+  font-weight: 1000 !important;
+}

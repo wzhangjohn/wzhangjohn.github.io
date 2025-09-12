@@ -11,3 +11,9 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+# OS metadata / ADS
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+*:AFP_AfpInfo*
+*:com.apple.*
