@@ -13,7 +13,7 @@ title                    : "John W. Z. Zhang"
 title_separator          : "-"
 name                     : &name "John W. Z. Zhang"
 description              : # &description ""
-url                      : "https://wzhangjohn.github.io/"
+url                      : "https://wzhangjohn.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # "academicpages/academicpages.github.io"
 
