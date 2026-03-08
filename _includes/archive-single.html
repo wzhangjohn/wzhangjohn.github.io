@@ -1,31 +1,46 @@
 {% include base_path %}
 
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
+    {%- comment -%}
+    1) Title on its own line
+    {%- endcomment -%}
     <h2 class="archive__item-title" itemprop="headline">
       {{ post.title | strip_html }}
     </h2>
 
+    {%- comment -%}
+    2) Co-author information (you’ll need an `authors` array in your front-matter)
+    {%- endcomment -%}
     {% if post.authors %}
       <p class="archive__item-authors" itemprop="author">
-        (with {{ post.authors }})
+        (with {{ post.authors | join: ", " }})
       </p>
     {% endif %}
 
+    {%- comment -%}
+    3) Date, venue, then “Download Paper” all on the same line
+    {%- endcomment -%}
     <p class="archive__item-meta">
       <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ post.date | date: "%B %Y" }}
+  {{ post.date | date: "%B %Y" }}
       </time>
       {% if post.venue %} | <em itemprop="publisher">{{ post.venue }}</em>{% endif %}
       {% if post.paperurl %} | <a href="{{ post.paperurl }}" target="_blank" rel="noopener">PDF</a>{% endif %}
     </p>
-
-    {% if post.content %}
-      <div class="archive__item-excerpt">
-        {{ post.content }}
-      </div>
-    {% endif %}
 
   </article>
 </div>
