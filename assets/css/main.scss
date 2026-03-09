@@ -41,31 +41,3 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
-
-.research-excerpt {
-  margin-bottom: 1.2em;
-}
-
-.research-excerpt summary {
-  cursor: pointer;
-  font-weight: 500;
-  color: #2a6ebb;
-  list-style: none;
-}
-
-.research-excerpt summary::-webkit-details-marker {
-  display: none;
-}
-
-.research-excerpt summary::before {
-  content: "▶ ";
-  font-size: 0.8em;
-}
-
-.research-excerpt[open] summary::before {
-  content: "▼ ";
-}
-
-.excerpt-content {
-  margin-top: 0.5em;
-}
