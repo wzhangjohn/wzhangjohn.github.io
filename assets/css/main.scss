@@ -41,3 +41,13 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+.research-excerpt summary {
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+}
+
+.research-excerpt summary::marker {
+  color: inherit;
+}
