@@ -45,9 +45,12 @@
 .research-excerpt summary {
   cursor: pointer;
   color: inherit;
-  font: inherit;
 }
 
 .research-excerpt summary::marker {
+  color: inherit;
+}
+
+.research-excerpt summary::-webkit-details-marker {
   color: inherit;
 }
