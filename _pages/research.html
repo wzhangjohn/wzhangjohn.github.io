@@ -9,6 +9,32 @@ Next Release: <strong>Endogenous Revolutionary Threat</strong>
 
 {% include base_path %}
 
+<style>
+  .abstract-toggle {
+    margin: 0.5em 0 1em 0;
+  }
+
+  .abstract-toggle summary {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.4em 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #f7f7f7;
+    font-size: 0.95em;
+    font-weight: 600;
+    list-style: none;
+  }
+
+  .abstract-toggle summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .abstract-content {
+    margin-top: 0.75em;
+  }
+</style>
+
 {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign title_shown = false %}
@@ -28,8 +54,14 @@ Next Release: <strong>Endogenous Revolutionary Threat</strong>
           {{ post.title }}
         </a>
       </h3>
+
       {% if post.excerpt %}
-        <p>{{ post.excerpt }}</p>
+        <details class="abstract-toggle">
+          <summary>Abstract</summary>
+          <div class="abstract-content">
+            <p>{{ post.excerpt }}</p>
+          </div>
+        </details>
       {% endif %}
     {% endfor %}
   {% endfor %}
@@ -40,8 +72,14 @@ Next Release: <strong>Endogenous Revolutionary Threat</strong>
         {{ post.title }}
       </a>
     </h3>
+
     {% if post.excerpt %}
-      <p>{{ post.excerpt }}</p>
+      <details class="abstract-toggle">
+        <summary>Abstract</summary>
+        <div class="abstract-content">
+          <p>{{ post.excerpt }}</p>
+        </div>
+      </details>
     {% endif %}
   {% endfor %}
 {% endif %}
