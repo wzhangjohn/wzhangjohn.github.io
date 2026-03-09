@@ -28,12 +28,16 @@ Next Release: <strong>Endogenous Revolutionary Threat</strong>
           {{ post.title }}
         </a>
       </h3>
+
       {% if post.excerpt %}
-        <details>
+        <details class="research-excerpt">
           <summary>Abstract</summary>
-          <p>{{ post.excerpt }}</p>
+          <div class="excerpt-content">
+            {{ post.excerpt }}
+          </div>
         </details>
       {% endif %}
+
     {% endfor %}
   {% endfor %}
 {% else %}
@@ -43,11 +47,15 @@ Next Release: <strong>Endogenous Revolutionary Threat</strong>
         {{ post.title }}
       </a>
     </h3>
+
     {% if post.excerpt %}
-      <details>
+      <details class="research-excerpt">
         <summary>Abstract</summary>
-        <p>{{ post.excerpt }}</p>
+        <div class="excerpt-content">
+          {{ post.excerpt }}
+        </div>
       </details>
     {% endif %}
+
   {% endfor %}
 {% endif %}
