@@ -29,6 +29,10 @@ Next Release: <strong>Endogenous Revolutionary Threat</strong>
         </a>
       </h3>
 
+      {% if post.coauthor %}
+        <p class="publication-coauthor">{{ post.coauthor }}</p>
+      {% endif %}
+
       {% if post.excerpt %}
         <details class="research-excerpt">
           <summary>Abstract</summary>
@@ -47,6 +51,10 @@ Next Release: <strong>Endogenous Revolutionary Threat</strong>
         {{ post.title }}
       </a>
     </h3>
+
+    {% if post.coauthor %}
+      <p class="publication-coauthor">{{ post.coauthor }}</p>
+    {% endif %}
 
     {% if post.excerpt %}
       <details class="research-excerpt">
