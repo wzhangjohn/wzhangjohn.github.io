@@ -19,6 +19,8 @@ You can find my CV [here](https://wzhangjohn.github.io/files/CV_John_W_Z_Zhang.p
 
 Feel free to reach out at: [w.zhang59@lse.ac.uk](mailto:w.zhang59@lse.ac.uk).
 
+<hr style="margin-top: 2.5em; margin-bottom: 1.5em;">
+
 <h1>Research</h1>
 
 Next Release: <strong>Austerity Origins of the Great Reform Act</strong>
@@ -34,7 +36,6 @@ Next Release: <strong>Austerity Origins of the Great Reform Act</strong>
 
 {% unless title_shown %}
 <h2>{{ category[1].title }}</h2>
-<hr>
 {% assign title_shown = true %}
 {% endunless %}
 
