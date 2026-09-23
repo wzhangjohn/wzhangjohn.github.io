@@ -15,7 +15,7 @@ main:
   #   url: /talks/    
     
   - title: "CV"
-    url: /https://wzhangjohn.github.io/files/CV_John_W_Z_Zhang.pdf/
+    url: https://wzhangjohn.github.io/files/CV_John_W_Z_Zhang.pdf
     
   # - title: "CV"
   #   url: /cv-json/
