@@ -33,7 +33,7 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site */
+/*
 html[data-theme="dark"] {
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
@@ -52,3 +52,4 @@ html[data-theme="dark"] {
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
 }
+*/
