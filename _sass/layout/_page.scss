@@ -8,7 +8,7 @@
   margin: 2em auto 0;
   padding-left: clamp(1em, 3vw, 2.5em);
   padding-right: clamp(1em, 3vw, 2.5em);
-  padding-bottom: 6em;
+  padding-bottom: 2em;
 }
 
 .page {
@@ -53,6 +53,28 @@
 
   p, li, dl {
     font-size: 1em;
+  }
+
+  .research-excerpt {
+    display: block;
+    width: 100%;
+    margin: 0.5em 0 1.5em;
+    overflow: visible;
+
+    summary {
+      display: list-item;
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--global-link-color);
+      padding: 0.25em 0;
+    }
+
+    .excerpt-content {
+      display: block;
+      width: 100%;
+      margin-top: 0.75em;
+      overflow: visible;
+    }
   }
 
   /* paragraph indents */
