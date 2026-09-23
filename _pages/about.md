@@ -17,11 +17,9 @@ My research addresses topical debates in political economy, technological change
 
 Feel free to reach out at: [w.zhang59@lse.ac.uk](mailto:w.zhang59@lse.ac.uk).
 
-# Research
+<h1>Research</h1>
 
 Next Release: <strong>Austerity Origins of the Great Reform Act</strong>
-
-<h1>Research</h1>
 
 {% if site.publication_category %}
 {% for category in site.publication_category %}
