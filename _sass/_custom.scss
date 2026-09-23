@@ -2,3 +2,29 @@
 h2 > a {
   font-weight: 1000 !important;
 }
+
+/* Links on white/light backgrounds */
+a {
+  color: #005EA8;
+
+  &:visited {
+    color: #005EA8;
+  }
+
+  &:hover {
+    color: #004578;
+  }
+}
+
+/* Links on dark background */
+.dark-background a {
+  color: #8CCBFF;
+
+  &:visited {
+    color: #8CCBFF;
+  }
+
+  &:hover {
+    color: #B8DFFF;
+  }
+}
