@@ -19,5 +19,6 @@ You can find my CV [here](https://wzhangjohn.github.io/files/CV_John_W_Z_Zhang.p
 
 Feel free to reach out at: [w.zhang59@lse.ac.uk](mailto:w.zhang59@lse.ac.uk).
 
-{% assign research_page = site.pages | where: "permalink", "/research/" | first %}
-{{ research_page.content | markdownify }}
+# Research
+
+{% include research.html %}
