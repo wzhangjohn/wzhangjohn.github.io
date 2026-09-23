@@ -3,28 +3,15 @@ h2 > a {
   font-weight: 1000 !important;
 }
 
-/* Links on white/light backgrounds */
 a {
-  color: #005EA8;
-
-  &:visited {
-    color: #005EA8;
-  }
-
-  &:hover {
-    color: #004578;
-  }
+  color: #B54A00 !important;
 }
 
-/* Links on dark background */
-.dark-background a {
-  color: #8CCBFF;
+a:visited {
+  color: #B54A00 !important;
+}
 
-  &:visited {
-    color: #8CCBFF;
-  }
-
-  &:hover {
-    color: #B8DFFF;
-  }
+a:hover {
+  color: #8A3800 !important;
+  text-decoration: underline;
 }
