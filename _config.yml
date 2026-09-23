@@ -23,13 +23,13 @@ repository               : # "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "PHOTO.jpg"
-  name             : "John W. Z. Zhang"
-  pronouns         : # example: "she/her"  
-  bio              : # "Yr2 PhD in Economic History, London School of Economics and Political Science (LSE)"
+  name             : #
+  pronouns         : #
+  bio              : #
   location         : #
-  employer         : # "London School of Economics"
-  uri              : # URL
-  email            : # "w.zhang59@lse.ac.uk" 
+  employer         : #
+  uri              : #
+  email            : #
 
   # Academic websites
   academia         : # URL
