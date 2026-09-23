@@ -21,4 +21,6 @@ Feel free to reach out at: [w.zhang59@lse.ac.uk](mailto:w.zhang59@lse.ac.uk).
 
 # Research
 
+Next Release: <strong>Austerity Origins of the Great Reform Act</strong>
+
 {% include research.html %}
