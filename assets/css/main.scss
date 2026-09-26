@@ -71,3 +71,19 @@
   line-height: 1.5;
   max-width: 32em;
 }
+
+@media (max-width: 600px) {
+  .homepage-profile {
+    gap: 1em;
+  }
+
+  .homepage-profile img {
+    width: 120px;
+    height: 120px;
+    flex-basis: 120px;
+  }
+
+  .homepage-bio {
+    font-size: 0.9em;
+  }
+}

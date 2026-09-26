@@ -9,8 +9,9 @@ redirect_from:
   <img src="/images/PHOTO.jpg" alt="John W. Z. Zhang">
 
   <div class="homepage-bio">
-    Final-year PhD student in the Department of Economic History at the London School of Economics and Political Science (LSE).<br>
-    Visiting student researcher in the Department of Political Science at Stanford University.
+    Final-year PhD Candidate at the London School of Economics and Political Science (LSE).
+    <br><br>
+    Visiting student researcher at Stanford University.
   </div>
 </div>
 
