@@ -88,8 +88,8 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .masthead__menu-item--lg {
-    transform: translateX(clamp(120px, 12vw, 200px));
+@include breakpoint($large) {
+  .masthead__menu {
+    padding-left: span(2.5 of 12);
   }
 }
