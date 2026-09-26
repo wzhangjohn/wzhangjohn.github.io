@@ -87,12 +87,11 @@
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
-    height: auto;
+    width: 100%;
   }
 
   img {
-    width: clamp(100px, 28vw, 220px);
+    width: 100%;
     max-width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
