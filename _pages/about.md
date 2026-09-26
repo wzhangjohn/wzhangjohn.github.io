@@ -26,8 +26,6 @@ You can find my CV [here](https://wzhangjohn.github.io/files/CV_John_W_Z_Zhang.p
 
 Feel free to reach out at [w.zhang59@lse.ac.uk](mailto:w.zhang59@lse.ac.uk).
 
-<hr style="margin-top: 2.5em; margin-bottom: 1.5em;">
-
 {% if site.publication_category %}
 {% for category in site.publication_category %}
 {% assign title_shown = false %}
