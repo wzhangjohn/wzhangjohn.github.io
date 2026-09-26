@@ -95,22 +95,3 @@
   margin-top: 0.15em;
   margin-bottom: 1.75em;
 }
-
-@media (min-width: 1024px) {
-  .page:has(.homepage-profile) {
-    float: none;
-    width: 100%;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .masthead__menu {
-    width: 100%;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
