@@ -42,13 +42,14 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-.research-excerpt summary {
+.page__content .research-excerpt summary {
   cursor: pointer;
-  color: inherit;
-  font: inherit;
+  color: var(--global-text-color);
+  font-weight: 400;
+  font-size: 0.9em;
 }
 
-.research-excerpt summary::marker {
+.page__content .research-excerpt summary::marker {
   color: inherit;
 }
 
@@ -88,4 +89,9 @@
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
   }
+}
+
+.page__content .research-excerpt {
+  margin-top: 0.15em;
+  margin-bottom: 1.75em;
 }
