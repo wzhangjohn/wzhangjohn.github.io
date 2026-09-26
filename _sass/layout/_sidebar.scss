@@ -152,11 +152,12 @@
 
 .sidebar .author__bio {
   margin: 0;
-  font-size: 1em;
-  line-height: 1.5;
+  font-size: 0.9em;
+  line-height: 1.55;
+  color: var(--global-text-color);
 
   @include breakpoint($large) {
-    margin-top: 10px;
+    margin-top: 12px;
     margin-bottom: 20px;
   }
 }
