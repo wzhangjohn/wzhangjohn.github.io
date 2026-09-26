@@ -25,11 +25,11 @@ author:
   avatar           : "PHOTO.jpg"
   name             : #
   pronouns         : #
-  bio              : #
-  location         : #
-  employer         : #
-  uri              : #
-  email            : #
+  bio              : "PhD Candidate in Economic History"
+  location         : "LSE"
+  employer         :
+  uri              :
+  email            : "w.zhang59@lse.ac.uk"
 
   # Academic websites
   academia         : # URL
