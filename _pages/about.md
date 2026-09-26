@@ -10,7 +10,7 @@ redirect_from:
   <img src="/images/PHOTO.jpg" alt="John W. Z. Zhang">
 
   <div class="homepage-bio">
-    Final-Year PhD Candidate at the London School of Economics and Political Science.
+    Final-Year PhD Student at the London School of Economics and Political Science.
     <br><br>
     Visiting Student Researcher at Stanford University.
   </div>
