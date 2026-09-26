@@ -67,9 +67,7 @@
 }
 
 .homepage-bio {
-  font-size: 1em;
-  line-height: 1.5;
-  max-width: 32em;
+  font-size: 0.9em;
 }
 
 @media (max-width: 600px) {
@@ -81,10 +79,6 @@
     width: 120px;
     height: 120px;
     flex-basis: 120px;
-  }
-
-  .homepage-bio {
-    font-size: 0.9em;
   }
 }
 
