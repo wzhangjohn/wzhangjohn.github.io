@@ -90,6 +90,6 @@
 
 @media (min-width: 1024px) {
   .masthead__menu-item--lg {
-    margin-left: 20%;
+    transform: translateX(clamp(120px, 12vw, 200px));
   }
 }
