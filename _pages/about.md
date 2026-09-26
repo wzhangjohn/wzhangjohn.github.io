@@ -31,7 +31,11 @@ Feel free to reach out at: [w.zhang59@lse.ac.uk](mailto:w.zhang59@lse.ac.uk).
 {% assign title_shown = true %}
 {% endunless %}
 
-<h3><a href="{% if post.paperurl %}{{ post.paperurl }}{% else %}{{ post.url | relative_url }}{% endif %}">{{ post.title }}</a></h3>
+{% if post.paperurl %}
+<h3><a href="{{ post.paperurl }}">{{ post.title }}</a></h3>
+{% else %}
+<h3>{{ post.title }}</h3>
+{% endif %}
 
 {% if post.coauthor %}
 <p class="publication-coauthor">{{ post.coauthor }}</p>
