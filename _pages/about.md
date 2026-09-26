@@ -1,6 +1,7 @@
 ---
 permalink: /
 author_profile: false
+classes: homepage
 redirect_from: 
   - /about/
   - /about.html
@@ -11,7 +12,7 @@ redirect_from:
   <div class="homepage-bio">
     Final-year PhD Candidate at the London School of Economics and Political Science (LSE).
     <br><br>
-    Visiting student researcher at Stanford University.
+    Visiting Student Researcher at Stanford University.
   </div>
 </div>
 

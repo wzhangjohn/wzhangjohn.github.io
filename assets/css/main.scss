@@ -87,3 +87,12 @@
     font-size: 0.9em;
   }
 }
+
+@media (min-width: 1024px) {
+  .page:has(.homepage-profile) {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
