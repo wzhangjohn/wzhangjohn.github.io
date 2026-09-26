@@ -5,7 +5,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am visiting the Department of Political Science at Stanford University in Autumn 2026.
+Hello, World!
 
 My research addresses topical debates in political economy, technological change and social policy, from a historical perspective.
 
