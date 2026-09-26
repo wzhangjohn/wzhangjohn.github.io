@@ -5,10 +5,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello, World!
-
-I am a final-year PhD student in the Department of Economic History at the London School of Economics and Political Science (LSE).
-
 I am visiting the Department of Political Science at Stanford University in Autumn 2026.
 
 My research addresses topical debates in political economy, technological change and social policy, from a historical perspective.

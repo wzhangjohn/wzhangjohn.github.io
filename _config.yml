@@ -25,11 +25,11 @@ author:
   avatar           : "PHOTO.jpg"
   name             : #
   pronouns         : #
-  bio              : "PhD Candidate in Economic History"
-  location         : "LSE"
-  employer         :
-  uri              :
-  email            : "w.zhang59@lse.ac.uk"
+  bio              : Hello, World! I am a final-year PhD student in the Department of Economic History at the London School of Economics and Political Science (LSE).
+  location         : #
+  employer         : #
+  uri              : #
+  email            : #
 
   # Academic websites
   academia         : # URL
