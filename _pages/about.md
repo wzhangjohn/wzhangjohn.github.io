@@ -27,7 +27,7 @@ Click [here](https://dx.doi.org/10.2139/ssrn.6372878) for my **Job Market Paper*
 Feel free to reach out at [w.zhang59@lse.ac.uk](mailto:w.zhang59@lse.ac.uk).
 
 {% if site.publication_category %}
-{% for category in site.publication_category %}
+{% assign sorted_publications = site.publications | sort: "title" %}
 {% assign title_shown = false %}
 
 {% assign sorted_publications = site.publications | sort: "date" | reverse %}
