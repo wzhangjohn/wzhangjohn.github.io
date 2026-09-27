@@ -30,7 +30,8 @@ Feel free to reach out at [w.zhang59@lse.ac.uk](mailto:w.zhang59@lse.ac.uk).
 {% for category in site.publication_category %}
 {% assign title_shown = false %}
 
-{% for post in site.publications reversed %}
+{% assign sorted_publications = site.publications | sort: "date" | reverse %}
+{% for post in sorted_publications %}
 {% if post.category != category[0] %}
 {% continue %}
 {% endif %}
