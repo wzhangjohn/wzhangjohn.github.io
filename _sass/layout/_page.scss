@@ -437,3 +437,8 @@
     @include suffix(0 of 12);
   }
 }
+
+.homepage .page__title {
+  margin-left: 0;
+  padding-left: 0;
+}
