@@ -430,15 +430,26 @@
   text-transform: uppercase;
 }
 
-/* Homepage: align content with left margin */
-.homepage .page {
-  @include breakpoint($large) {
-    @include prefix(0 of 12);
-    @include suffix(0 of 12);
+/* Homepage: remove reserved sidebar space */
+@media (min-width: 64em) {
+  #main .page.homepage,
+  #main.homepage .page,
+  body.homepage #main .page {
+    float: none;
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
-.homepage .page__title {
+/* Align homepage heading and content */
+#main .page.homepage .page__inner-wrap,
+#main.homepage .page .page__inner-wrap,
+body.homepage #main .page .page__inner-wrap {
+  width: 100%;
   margin-left: 0;
   padding-left: 0;
 }
