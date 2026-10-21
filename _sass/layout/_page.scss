@@ -429,3 +429,11 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Homepage: align content with left margin */
+.homepage .page {
+  @include breakpoint($large) {
+    @include prefix(0 of 12);
+    @include suffix(0 of 12);
+  }
+}
