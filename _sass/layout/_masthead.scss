@@ -29,7 +29,7 @@
     @include clearfix;
 
     width: 100%;
-    max-width: 1500px;
+    max-width: 1250px;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -38,7 +38,7 @@
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
-      max-width: 1500px;
+      max-width: 1250px;
     }
 
     nav {
@@ -70,6 +70,6 @@
   &--lg {
     padding-right: clamp(0.75em, 2vw, 2em);
     font-weight: 700;
-    font-size: clamp(1.5rem, 2.5vw, 1.75rem);
+    font-size: clamp(1.5rem, 2.5vw, 1.7rem);
   }
 }
